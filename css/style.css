@@ -161,12 +161,28 @@ footer{
     background-color: #1a1a1a;
     color: white;
     height: 100px;
+    min-width: 1000px;
 }
 
 footer div.info{
     left: 15%;
 }
 
-footer div.find-us{
+div.info h2{
+    font-size: 1rem;
+    padding: 1.5rem 0 .1rem;
+}
+
+div.info li{
+    list-style-type: none;
+    display: inline;
+    font-size: .5rem;
+    padding-right: .3rem;
+}
+
+footer div#find-us{
     right: 15%;
+    font-weight: bold;
+    font-size: .5rem;
+    padding-top: 1.5rem; 
 }
