@@ -19,17 +19,30 @@ header{
 
 header ul>li{
     display: inline;
+    padding: .2rem;
 }
 
 header ul.width{
     width: 15%;
 }
 
+header ul.ul-left{
+    padding: 1rem;
+    text-align: center;
+}
+
+header ul.ul-right{
+    padding: 1rem;
+    text-align: end;
+}
+
 header div.boolean-logo{
     width: 40%;
+    height: 50%;
+    text-align: center;
+    padding-top: 1rem;
 }
 
 div.boolean-logo img{
     height: 100%;
-    text-align: center;
 }
