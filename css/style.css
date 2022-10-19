@@ -14,10 +14,12 @@ body{
 header{
     background-color: #ff6900;
     height: 70px;
+    width: 100%;
     color: white;
     display: flex;
     justify-content: center;
     min-width: 1000px;
+    position: fixed;
 }
 
 header ul>li{
@@ -51,6 +53,10 @@ div.boolean-logo img{
 }
 
 /* css MAIN */
+
+main{
+    padding-top: 70px;
+}
 
 .p-relative{
     position: relative;
