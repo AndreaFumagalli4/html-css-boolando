@@ -20,6 +20,7 @@ header{
     justify-content: center;
     min-width: 1000px;
     position: fixed;
+    z-index: 1;
 }
 
 header ul>li{
@@ -163,15 +164,9 @@ footer{
 }
 
 footer div.info{
-    height: 100px; 
-    width: 100px;
-    background-color: cyan;
     left: 15%;
 }
 
 footer div.find-us{
-    height: 100px; 
-    width: 100px;
-    background-color: red;
     right: 15%;
 }
