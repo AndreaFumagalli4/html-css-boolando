@@ -9,6 +9,8 @@ body{
     font-family: 'roboto', sans-serif;
 }
 
+/* css HEADER */
+
 header{
     background-color: #ff6900;
     height: 70px;
@@ -45,4 +47,51 @@ header div.boolean-logo{
 
 div.boolean-logo img{
     height: 100%;
+}
+
+/* css MAIN */
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+section.row-products{
+    margin: 3rem;
+    text-align: center;
+}
+
+section.row-products div.article{
+    width: 300px;
+    height: 400px;
+    background-color: magenta;
+    display: inline-block;
+}
+
+div.article div.heart-container{
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    text-align: center;
+    top: 3%;
+    right: 0;
+}
+
+div.heart-container span{
+    font-size: 2rem;
+}
+
+div.article span.discount{
+    background-color: green;
+    bottom: 10%;
+    left: 0;
+}
+
+div.article span.sustainable{
+    background-color: blue;
+    bottom: 10%;
+    left: 14%;
 }
