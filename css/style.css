@@ -17,6 +17,7 @@ header{
     color: white;
     display: flex;
     justify-content: center;
+    min-width: 1000px;
 }
 
 header ul>li{
@@ -62,6 +63,7 @@ div.boolean-logo img{
 section.row-products{
     margin: 3rem;
     text-align: center;
+    min-width: 1000px;
 }
 
 section.row-products div.article{
@@ -94,4 +96,26 @@ div.article span.sustainable{
     background-color: blue;
     bottom: 10%;
     left: 14%;
+}
+
+/* css FOOTER */
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    height: 100px;
+}
+
+footer div.info{
+    height: 100px; 
+    width: 100px;
+    background-color: cyan;
+    left: 15%;
+}
+
+footer div.find-us{
+    height: 100px; 
+    width: 100px;
+    background-color: red;
+    right: 15%;
 }
